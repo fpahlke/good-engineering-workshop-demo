@@ -115,7 +115,7 @@ load_data <- function(path) {
 #' df <- data.frame(x = 1:10)
 #' assert_is_valid_data_frame(df)
 #' }
-#' 
+#' @export
 assert_is_valid_data_frame <- function(df) {
     stopifnot_with_message(!is.null(df), 
         "'df' must not be NULL")
