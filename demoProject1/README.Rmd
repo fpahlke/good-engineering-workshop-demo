@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# demoProject1
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/fpahlke/good-engineering-workshop-demo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/fpahlke/good-engineering-workshop-demo/actions/workflows/R-CMD-check.yaml)
+[![pkgdown](https://github.com/fpahlke/good-engineering-workshop-demo/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/fpahlke/good-engineering-workshop-demo/actions/workflows/pkgdown.yaml)
+<!-- badges: end -->
+
+A small set of pragmatic helper functions and examples for a workshop on
+clean R code for statisticians. It demonstrates explicit inputs/outputs,
+lightweight assertions with custom messages, safe CSV loading, simple
+completeness filtering,     and concise parameter summaries. Intended for
+teaching and internal demos rather     than general-purpose production use.
+

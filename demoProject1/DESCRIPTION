@@ -7,18 +7,12 @@ Authors@R: c(
     	family = "Pahlke", 
     	email = "friedrich.pahlke@rpact.com",
     	comment = c(ORCID = "0000-0003-2105-2582"), 
-    	role = c("aut", "cre")
-    ),
+    	role = c("aut", "cre")),
     person(
     	given = "Thomas", 
     	family = "Xprt", 
     	email = "thomas@rpact.com", 
     	role = c("aut"))
-    )
-Authors@R: 
-    c(
-      person("Friedrich", "Pahlke", role = c("aut", "cre"), email = "info@example.com"),
-      person("Thomas", "Example", role = "aut")
     )
 Description: A small set of pragmatic helper functions and examples for a workshop on
     clean R code for statisticians. It demonstrates explicit inputs/outputs, lightweight
@@ -34,3 +28,4 @@ Depends:
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://fpahlke.github.io/good-engineering-workshop-demo/
