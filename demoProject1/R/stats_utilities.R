@@ -145,10 +145,11 @@ assert_is_valid_data_frame <- function(df) {
 #'
 #' @export
 assert_is_valid_parameter <- function(param_name) {
-    stopifnot_with_message(is.character(param_name) && length(param_name) == 1, 
+    stopifnot_with_message(!is.null(param_name) && 
+            length(param_name) == 1 &&
+            !is.na(param_name) &&
+            is.character(param_name), 
         "'param_name' must be a single character string")
-    stopifnot_with_message(!is.na(param_name), 
-        "'param_name' must not be NA")
 }
 
 #' 
