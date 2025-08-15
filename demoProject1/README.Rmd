@@ -23,6 +23,6 @@ knitr::opts_chunk$set(
 A small set of pragmatic helper functions and examples for a workshop on
 clean R code for statisticians. It demonstrates explicit inputs/outputs,
 lightweight assertions with custom messages, safe CSV loading, simple
-completeness filtering,     and concise parameter summaries. Intended for
+completeness filtering, and concise parameter summaries. Intended for
 teaching and internal demos rather     than general-purpose production use.
 
